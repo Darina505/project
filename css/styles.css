@@ -336,7 +336,10 @@ ul {
   border: 0px;
   font-weight: 500;
 }
-
+.button-nav .current{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
 .button-nav .project-link {
   padding: 0px;
 }
