@@ -176,7 +176,7 @@ ul {
 .advantage-list .advantage-link {
   width: calc((100%-90px) / 4);
 }
-.advantage-list li:not(:first-child) {
+.advantage-section li:not(:first-child) {
   margin-left: 30px;
 }
 .advantage-section .advantage-name {
