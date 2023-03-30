@@ -329,13 +329,15 @@ ul {
   color: var(--secondary-black-color);
   font-size: 16px;
   line-height: 1.6;
-  cursor: pointer;
 }
 .button-nav .button {
   padding: 6px 22px;
   border-radius: 4px;
   border: 0px;
   font-weight: 500;
+}
+.button-nav button{
+  cursor: pointer;
 }
 .button-nav .current{
   background-color: var(--accent-color);
