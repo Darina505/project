@@ -181,8 +181,7 @@ ul {
 }
 .advantage-section .advantage-name {
   padding: 0px;
-  margin-bottom: 10px;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
   color: var(--secondary-black-color);
   font-weight: 700;
   line-height: 1.14;
