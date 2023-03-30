@@ -293,6 +293,9 @@ ul {
   margin: 0px;
   margin-top: 20px;
 }
+.site-auth-footer > li :hover,
+.site-auth-footer > li :focus {
+  color: var(--accent-color);}
 .site-auth-footer li:not(:first-child) {
   margin-top: 9px;
 }
