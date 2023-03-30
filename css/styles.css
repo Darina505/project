@@ -273,7 +273,7 @@ ul {
 /*FOOTER*/
 .page-footer {
   background-color: var(--black-background-color);
-  padding: 94px 0px 94px 0px;
+  padding: 60px 0px 60px 0px;
 }
 .page-footer .logo {
   display: inline-block;
