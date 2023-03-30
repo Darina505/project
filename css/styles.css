@@ -55,7 +55,7 @@ ul {
 }
 /*Page-header*/
 .page-header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   background-color: var(--primary-white-color);
 }
 .nav-page {
@@ -336,10 +336,10 @@ ul {
   background-color: var(--secondary-white-background-color);
   color: var(--secondary-black-color);
 }
-.button-nav button{
+.button-nav button {
   cursor: pointer;
 }
-.button-nav .current{
+.button-nav .current {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -365,10 +365,10 @@ ul {
 .project-list li:not(:nth-child(-n + 3)) {
   margin-top: 30px;
 }
-.project-list li:not(:first-child){
+.project-list li:not(:nth-child(3n+1)){
   margin-left: 30px;
 }
-.project-list .project-link{
+.project-list .project-link {
   margin: 0px;
 }
 .project-section .card {
@@ -379,7 +379,6 @@ ul {
   height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  
 }
 
 .project-section .title {
