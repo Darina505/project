@@ -240,7 +240,7 @@ ul {
 }
 
 .team-list li:not(:first-child) {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .team-list .card-img {
