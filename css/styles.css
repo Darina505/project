@@ -163,10 +163,12 @@ ul {
   color: var(--accent-color);
 }
 /*ADVANTAGE-SECTION*/
-.advantage-section .advantage-title {
-  display: none;
+.advantage-section{
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.advantage-section .advantage-title {
+  display: none;
 }
 .advantage-list {
   display: flex;
