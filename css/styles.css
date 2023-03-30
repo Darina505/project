@@ -74,7 +74,7 @@ ul {
   color: var(--accent-color);
 }
 /*site-nav*/
-.page-header nav{
+.page-header nav {
   margin: 32px 0px 32px 93px;
 }
 .site-nav {
@@ -99,7 +99,7 @@ ul {
   color: var(--accent-color);
 }
 /*site-auth*/
-.page-header address{
+.page-header address {
   margin-left: auto;
 }
 .site-auth {
@@ -153,7 +153,7 @@ ul {
   border-radius: 4px;
   border: 0px;
 }
-.hero button{
+.hero button {
   cursor: pointer;
 }
 .hero > button:hover,
@@ -162,7 +162,7 @@ ul {
   color: var(--accent-color);
 }
 /*ADVANTAGE-SECTION*/
-.advantage-section{
+.advantage-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -198,7 +198,7 @@ ul {
 }
 
 /*work-section*/
-.work-section{
+.work-section {
   padding-bottom: 94px;
 }
 .work-section .title {
@@ -293,9 +293,10 @@ ul {
   margin: 0px;
   margin-top: 20px;
 }
-.site-auth-footer > li :hover,
-.site-auth-footer > li :focus {
-  color: var(--accent-color);}
+.site-auth-footer > li:hover a,
+.site-auth-footer > li:focus a {
+  color: var(--accent-color);
+}
 .site-auth-footer li:not(:first-child) {
   margin-top: 9px;
 }
@@ -309,6 +310,7 @@ ul {
 
 /*Portfolio*/
 .link.portfolio {
+  background-color: var(--white-background-color);
   color: var(--accent-color);
 }
 .project-section {
@@ -322,10 +324,9 @@ ul {
   display: flex;
   justify-content: center;
   padding: 0px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
   background-color: var(--secondary-white-background-color);
   color: var(--secondary-black-color);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
@@ -334,6 +335,7 @@ ul {
   padding: 6px 22px;
   border-radius: 4px;
   border: 0px;
+  font-weight: 500;
 }
 
 .button-nav .project-link {
@@ -343,7 +345,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-
 }
 .project-list li {
   width: calc((100%-60px) / 3);
