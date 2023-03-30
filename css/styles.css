@@ -324,7 +324,7 @@ ul {
   justify-content: center;
   padding: 0px;
   margin-bottom: 50px;
-  background-color: var(--secondary-white-background-color);
+  background-color: var(--white-background-color);
   color: var(--secondary-black-color);
   font-size: 16px;
   line-height: 1.6;
