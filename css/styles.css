@@ -345,33 +345,43 @@ ul {
 }
 .button-nav .project-link {
   padding: 0px;
+  margin: 0px;
 }
-.project-section .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-}
-.project-list li {
-  width: calc((100%-60px) / 3);
-}
-.project-list li:not(:nth-child(-n + 3)) {
-  margin-top: 30px;
-}
-.project-section .card {
-  background-color: var(--primary-white-color);
-  width: 370px;
-  height: 404px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-.button-nav li:not(:first-child) {
-  margin-left: 30px;
+.button-nav li:not(:last-child) {
+  margin-right: 30px;
 }
 .button-nav > li :hover,
 .button-nav > li :focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.project-section .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project-list li:not(:nth-child(-n + 3)) {
+  margin-top: 30px;
+}
+.project-list li:not(:first-child){
+  margin-left: 30px;
+}
+.project-list .project-link{
+  margin: 0px;
+}
+.project-section .card {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--primary-white-color);
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  
+}
+
 .project-section .title {
   padding: 0px;
   margin: 20px 24px 4px 24px;
