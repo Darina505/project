@@ -313,6 +313,7 @@ ul {
   color: var(--accent-color);
 }
 .project-section {
+  border-top: 1px solid #ECECEC;
   background-color: var(--white-background-color);
   padding: 94px 0px 94px 0px;
 }
