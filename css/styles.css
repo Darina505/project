@@ -55,6 +55,7 @@ ul {
 }
 /*Page-header*/
 .page-header {
+  border-bottom: 1px solid #ECECEC;
   background-color: var(--primary-white-color);
 }
 .nav-page {
@@ -313,7 +314,6 @@ ul {
   color: var(--accent-color);
 }
 .project-section {
-  border-top: 1px solid #ECECEC;
   background-color: var(--white-background-color);
   padding: 94px 0px 94px 0px;
 }
