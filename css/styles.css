@@ -199,9 +199,13 @@ ul {
 }
 
 /*work-section*/
+.work-section{
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
 .work-section .title {
   padding: 0px;
-  margin: 0px;
+  margin: 0px 0px 50px 0px;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
@@ -210,8 +214,6 @@ ul {
 .work-section .list {
   display: flex;
   padding: 0px;
-  margin-top: 50px;
-  margin-bottom: 94px;
 }
 .work-list li:not(:first-child) {
   margin-left: 30px;
@@ -219,13 +221,13 @@ ul {
 
 /*team-section*/
 .team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-white-background-color);
 }
 .team-section .title {
   padding: 0px;
-  margin: 0px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  margin: 0px 0px 50px 0px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -242,7 +244,6 @@ ul {
 }
 
 .team-list .card-img {
-  margin-bottom: 94px;
   background-color: var(--white-background-color);
   width: 270px;
   height: 368px;
@@ -272,11 +273,12 @@ ul {
 /*FOOTER*/
 .page-footer {
   background-color: var(--black-background-color);
+  padding: 60px 0px 60px 0px;
 }
 .page-footer .logo {
   display: inline-block;
   margin: 0px;
-  padding-top: 60px;
+  padding: 0px;
   color: var(--primary-white-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -294,7 +296,7 @@ ul {
 .site-auth-footer {
   font-style: normal;
   margin: 0px;
-  padding: 20px 0px 60px 0px;
+  margin-top: 20px;
 }
 .site-auth-footer li:not(:first-child) {
   margin-top: 9px;
