@@ -67,8 +67,10 @@ body {
   color: var(--accent-color);
 }
 /*site-nav*/
-.site-nav {
+.page-header nav{
   margin: 32px 0px 32px 93px;
+}
+.site-nav {
   padding-left: 0px;
   display: flex;
   flex-direction: row;
@@ -90,11 +92,13 @@ body {
   color: var(--accent-color);
 }
 /*site-auth*/
+.page-header address{
+  margin-left: 344px;
+  margin-right: auto;
+}
 .site-auth {
   display: flex;
   padding-left: 0px;
-  margin-left: 344px;
-  margin-right: auto;
 }
 .site-auth li:not(:first-child) {
   margin-left: 50px;
