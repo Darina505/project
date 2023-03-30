@@ -32,10 +32,21 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
@@ -93,8 +104,7 @@ body {
 }
 /*site-auth*/
 .page-header address{
-  margin-left: 344px;
-  margin-right: auto;
+  margin-left: auto;
 }
 .site-auth {
   display: flex;
