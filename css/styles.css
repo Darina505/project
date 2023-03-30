@@ -273,7 +273,7 @@ ul {
 /*FOOTER*/
 .page-footer {
   background-color: var(--black-background-color);
-  padding: 60px 0px 60px 0px;
+  padding: 94px 0px 94px 0px;
 }
 .page-footer .logo {
   display: inline-block;
@@ -289,10 +289,7 @@ ul {
 .page-footer .logo-header {
   color: var(--accent-color);
 }
-.page-footer > .logo:hover,
-.page-footer > .logo:focus {
-  color: var(--accent-color);
-}
+
 .site-auth-footer {
   font-style: normal;
   margin: 0px;
@@ -315,6 +312,7 @@ ul {
 }
 .project-section {
   background-color: var(--primary-white-background-color);
+  padding: 94px 0px 94px 0px;
 }
 .project-section .exemple {
   display: none;
@@ -323,7 +321,7 @@ ul {
   display: flex;
   justify-content: center;
   padding: 0px;
-  margin: 94px 0px 50px 0px;
+  margin-bottom:50px;
   background-color: var(--secondary-white-background-color);
   color: var(--secondary-black-color);
   font-weight: 500;
@@ -344,7 +342,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  margin: 0px 0px 94px 0px;
+
 }
 .project-list li {
   width: calc((100%-60px) / 3);
