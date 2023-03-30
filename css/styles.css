@@ -165,13 +165,13 @@ ul {
 /*ADVANTAGE-SECTION*/
 .advantage-section .advantage-title {
   display: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .advantage-list {
   display: flex;
   flex-direction: row;
   padding: 0px;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 .advantage-list .advantage-link {
   width: calc((100%-90px) / 4);
