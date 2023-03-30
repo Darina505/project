@@ -70,10 +70,6 @@ ul {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo:focus,
-.logo:hover {
-  color: var(--accent-color);
-}
 .page-header .logo-header {
   color: var(--accent-color);
 }
