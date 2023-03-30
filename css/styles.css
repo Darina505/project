@@ -139,7 +139,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  cursor: pointer;
 }
 .hero .button {
   margin-bottom: 200px;
@@ -200,7 +199,6 @@ ul {
 
 /*work-section*/
 .work-section{
-  padding-top: 50px;
   padding-bottom: 94px;
 }
 .work-section .title {
