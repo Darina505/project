@@ -310,11 +310,10 @@ ul {
 
 /*Portfolio*/
 .link.portfolio {
-  background-color: var(--white-background-color);
   color: var(--accent-color);
 }
 .project-section {
-  background-color: var(--primary-white-background-color);
+  background-color: var(--white-background-color);
   padding: 94px 0px 94px 0px;
 }
 .project-section .exemple {
