@@ -15,7 +15,7 @@
   --white-background-color: #ffffff;
   --primary-white-background-color: #f5f5f5;
   --secondary-white-background-color: #f5f4fa;
-  --grey-icon:#AFB1B8;
+  --grey-icon: #afb1b8;
 }
 
 /*Page*/
@@ -134,8 +134,12 @@ ul {
   margin-right: 10px;
   width: 16px;
   height: 16px;
+  fill: var(--primary-black-color);
 }
-
+.site-auth .icon-envelope:hover,
+.site-auth .icon-smartphone:hover {
+  fill: var(--accent-color);
+}
 /*HERO*/
 .hero {
   display: flex;
@@ -324,6 +328,17 @@ ul {
 .icon-list .icon-facebook,
 .icon-list .icon-linkedin {
   fill: var(--grey-icon);
+  width: 20px;
+  height: 20px;
+}
+.icon-list .icon-instagram:hover,
+.icon-list .icon-twitter:hover,
+.icon-list .icon-facebook:hover,
+.icon-list .icon-linkedin:hover{
+  fill: var(--primary-white-color)
+}
+.icon-list .icon-team:hover{
+background-color: var(--accent-color);
 }
 .icon-list .icon-team:not(:first-child) {
   margin-left: 10px;
@@ -432,6 +447,9 @@ ul {
 }
 .social-list .icon-social:not(:first-child) {
   margin-left: 10px;
+}
+.social-list .icon-social:hover {
+  background-color: var(--accent-color);
 }
 .social-list .icon-instagram,
 .social-list .icon-twitter,
