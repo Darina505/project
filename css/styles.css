@@ -97,8 +97,8 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.site-nav > li :hover,
-.site-nav > li :focus {
+.site-nav > li:hover,
+.site-nav > li:focus {
   color: var(--accent-color);
 }
 /*site-auth*/
@@ -136,6 +136,8 @@ ul {
   height: 16px;
   fill: var(--primary-black-color);
 }
+.link-mail .link:hover .icon-envelope {
+  fill: var(—accent-color);}
 .site-auth .icon-envelope:hover,
 .site-auth .icon-smartphone:hover {
   fill: var(--accent-color);
