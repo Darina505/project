@@ -138,8 +138,8 @@ ul {
 }
 .link-mail .link:hover .icon-envelope {
   fill: var(—accent-color);}
-.site-auth .icon-envelope:hover,
-.site-auth .icon-smartphone:hover {
+.site-auth li:hover .icon-envelope,
+.site-auth li:hover .icon-smartphone {
   fill: var(--accent-color);
 }
 /*HERO*/
@@ -333,10 +333,10 @@ ul {
   width: 20px;
   height: 20px;
 }
-.icon-list .icon-instagram:hover,
-.icon-list .icon-twitter:hover,
-.icon-list .icon-facebook:hover,
-.icon-list .icon-linkedin:hover{
+.icon-list li:hover .icon-instagram,
+.icon-list li:hover .icon-twitter,
+.icon-list li:hover .icon-facebook,
+.icon-list li:hover .icon-linkedin{
   fill: var(--primary-white-color)
 }
 .icon-list .icon-team:hover{
@@ -375,9 +375,14 @@ background-color: var(--accent-color);
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: #AFB1B8;
 }
 .clientage-list .group:not(:first-child) {
   margin-left: 30px;
+}
+.clientage-list .group:hover{
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 /*FOOTER*/
 .footer {

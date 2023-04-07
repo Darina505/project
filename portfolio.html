@@ -34,13 +34,21 @@
         </nav>
         <address>
           <ul class="site-auth list">
-            <li>
-              <a class="link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+            <li class="link-mail">
+              <a class="link" href="mailto:info@devstudio.com">
+                <svg class="icon-envelope" width="16" height="12">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="link-tel">
+              <a class="link" href="tel:+380961111111">
+                <svg class="icon-smartphone" width="10" height="16">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
             </li>
           </ul>
         </address>
@@ -171,26 +179,59 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="footer">
       <div class="conteiner">
-        <a href="./index.html" class="logo">
-          <span class="logo-header">Web</span>studio</a
-        >
-        <address class="address">
-          <ul class="site-auth-footer list">
-            <li class="link current">
-              <span class="address-head">м. Київ, пр-т Лесі Українки, 26 </span>
-            </li>
-            <li class="link">
-              <a class="link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="link">
-              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+        <div class="page-footer">
+          <section class="footer-address">
+            <a href="./index.html" class="logo">
+              <span class="logo-header">Web</span>studio</a
+            >
+            <address class="address">
+              <ul class="site-auth-footer list">
+                <li class="link current">м. Київ, пр-т Лесі Українки, 26</li>
+                <li class="link">
+                  <a class="link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="link">
+                  <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </section>
+          <section class="social">
+            <h3 class="social-title">ПРИЄДНУЙТЕСЬ</h3>
+            <ul class="social-list list">
+              <li class="icon-social">
+                <svg width="20" height="20">
+                  <use
+                    class="icon-instagram"
+                    href="./images/sprite.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </li>
+              <li class="icon-social">
+                <svg class="icon-twitter" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </li>
+              <li class="icon-social">
+                <svg class="icon-facebook" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </li>
+              <li class="icon-social">
+                <svg width="20" height="20">
+                  <use
+                    class="icon-linkedin"
+                    href="./images/sprite.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </footer>
   </body>
