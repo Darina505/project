@@ -239,8 +239,8 @@ ul {
   background-color: var(--white-background-color);
 }
 .backdrop .modal-close {
-   position: absolute;
-   display: flex;
+  position: absolute;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 8px 8px 0px 0px;
@@ -632,6 +632,7 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .project-list .card:hover {
   border: 1px solid #eeeeee;
