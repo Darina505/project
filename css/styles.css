@@ -239,7 +239,10 @@ ul {
   background-color: var(--white-background-color);
 }
 .backdrop .modal-close {
-  position: absolute;
+   position: absolute;
+   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 8px 8px 0px 0px;
   width: 30px;
   height: 30px;
