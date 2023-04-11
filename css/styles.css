@@ -623,6 +623,7 @@ ul {
 .project-list .project-link {
   margin: 0px;
   padding: 0px;
+  cursor: pointer;
 }
 .project-section .card {
   margin: 0px;
@@ -632,7 +633,6 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
 .project-list .card:hover {
   border: 1px solid #eeeeee;
