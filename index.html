@@ -438,12 +438,34 @@
               </li>
             </ul>
           </div>
+
+          <form name="subscribe" class="subscribe-form">
+            <div class="subscribe">
+              <label class="subscribe-title" for="subscribe"
+                >ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label
+              >
+              <input
+                id="subscribe"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                autocomplete="on"
+              />
+            </div>
+            <button type="submit" class="submit">
+              Підписатися
+              <svg class="submit-icon" width="24" height="24">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
+
     <!-- modal -->
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal" >
+      <div class="modal">
         <button class="modal-close" data-modal-close>
           <svg width="11" height="11">
             <use href="./images/sprite.svg#close"></use>
@@ -451,9 +473,7 @@
         </button>
       </div>
     </div>
-    <!-- Вся твоя разметка, включая разметку модалки -->
-
-    <script src="./js/modal.js">
-    </script>
+    <script src="./js/submit.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
