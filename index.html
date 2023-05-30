@@ -442,8 +442,8 @@
           <form name="subscribe" class="subscribe-form">
             <div class="subscribe">
               <label class="subscribe-title" for="subscribe"
-                >ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label
-              >
+                >ПІДПИШІТЬСЯ НА РОЗСИЛКУ
+              </label>
               <input
                 id="subscribe"
                 type="email"
@@ -471,6 +471,47 @@
             <use href="./images/sprite.svg#close"></use>
           </svg>
         </button>
+        <b class="modal-title">Залиште свої дані, ми вам передзвонимо</b>
+        <div class="form-field">
+          <form name="form-modal" class="modal-form">
+            <label for="name" class="name-title">Ім'я</label>
+            <div class="input-wrap">
+              <input
+               type="text"
+                name="name"
+                 class="input-name" 
+                 id="name"
+                 placeholder=" "  />
+              <svg class="icon-person" width="18px" height="18px">
+                <use href="/images/sprite.svg#person"></use>
+              </svg>
+            </div>
+            <label for="tel" class="tel-title">Телефон</label>
+            <div class="input-wrap">
+              <input
+               type="tel"
+                name="tel"
+                 class="input-tel"
+                  id="tel" 
+                  placeholder=" "/>
+              <svg class="icon-phone" width="18px" height="18px">
+                <use href="/images/sprite.svg#phone"></use>
+              </svg>
+            </div>
+            <label for="mail" class="mail-title">Пошта</label>
+            <div class="input-wrap">
+              <input
+               type="email" 
+               name="mail" 
+               class="input-mail" 
+               id="mail"
+               placeholder=" " />
+              <svg class="icon-mail" width="18px" height="18px">
+                <use href="/images/sprite.svg#mail"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/submit.js"></script>

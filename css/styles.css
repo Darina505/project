@@ -236,6 +236,8 @@ ul {
   min-width: 528px;
   min-height: 580px;
   background-color: var(--white-background-color);
+  padding: 40px;
+  margin: 0 auto;
 }
 .backdrop .modal-close {
   position: absolute;
@@ -251,6 +253,66 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  fill: var(--black-color);
+}
+.backdrop .modal-close:hover,
+.backdrop .modal-close:focus {
+  fill: var(--accent-color);
+}
+.modal .modal-title {
+  display: flex;
+  padding: 0px;
+  margin: 0px 0px 12px 0px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  justify-content: center;
+  color: var(--secondary-black-color);
+}
+.modal-form .name-title,
+.modal-form .tel-title,
+.modal-form .mail-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-black-color);
+  padding: 0px;
+  margin: 0px 0px 4px 0px;
+}
+.modal-form .tel-title,
+.modal-form .mail-title {
+  margin-top: 10px;
+}
+.modal-form .input-wrap {
+  position: relative;
+}
+.modal-form .input-name,
+.modal-form .input-tel,
+.modal-form .input-mail {
+  width: 100%;
+  height: 40px;
+  margin: 0px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.modal-form .icon-person,
+.modal-form .icon-phone,
+.modal-form .icon-mail {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modal-form .input-name:not(:placeholder-shown),
+.modal-form .input-name:focus{
+  border: 1px solid var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+.form-field input:focus .icon-person{
+  fill: var(--accent-color);
 }
 /*ADVANTAGE-SECTION*/
 .advantage-section {
@@ -615,6 +677,12 @@ ul {
 .submit .submit-icon {
   padding: 0px;
   margin: 0px 0px 0px 10px;
+}
+.subscribe > input:not(:placeholder-shown),
+.subscribe > input:focus {
+  background-color: var(--primary-white-background-color);
+  font-size: 16px;
+  color: var(--black-color);
 }
 /*Portfolio*/
 .link.portfolio {
