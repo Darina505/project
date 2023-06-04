@@ -477,11 +477,12 @@
             <label for="name" class="name-title">Ім'я</label>
             <div class="input-wrap">
               <input
-               type="text"
+                type="text"
                 name="name"
-                 class="input-name" 
-                 id="name"
-                 placeholder=" "  />
+                class="input-name"
+                id="name"
+                placeholder=" "
+              />
               <svg class="icon-person" width="18px" height="18px">
                 <use href="/images/sprite.svg#person"></use>
               </svg>
@@ -489,11 +490,12 @@
             <label for="tel" class="tel-title">Телефон</label>
             <div class="input-wrap">
               <input
-               type="tel"
+                type="tel"
                 name="tel"
-                 class="input-tel"
-                  id="tel" 
-                  placeholder=" "/>
+                class="input-tel"
+                id="tel"
+                placeholder=" "
+              />
               <svg class="icon-phone" width="18px" height="18px">
                 <use href="/images/sprite.svg#phone"></use>
               </svg>
@@ -501,15 +503,43 @@
             <label for="mail" class="mail-title">Пошта</label>
             <div class="input-wrap">
               <input
-               type="email" 
-               name="mail" 
-               class="input-mail" 
-               id="mail"
-               placeholder=" " />
+                type="email"
+                name="mail"
+                class="input-mail"
+                id="mail"
+                placeholder=" "
+              />
               <svg class="icon-mail" width="18px" height="18px">
                 <use href="/images/sprite.svg#mail"></use>
               </svg>
             </div>
+            <div class="comment-wrap">
+              <label for="comment" class="comment-title">Коментар</label>
+              <textarea
+                class="comment-text"
+                name="comment"
+                id="comment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </div>
+            <div class="agree-wrap">
+              <label for="agree" class="agree-title">
+                Погоджуюся з розсилкою та приймаю
+                <a class="agree-page" href="#">Умови договору</a>
+              </label>
+              <input
+                type="checkbox"
+                name="agree"
+                class="input-agree"
+                id="agree"
+              />
+              <span class="disagree">
+                <svg width="16px" height="15px">
+                  <use href="/images/sprite.svg#agree"></use>
+                </svg>
+              </span>
+            </div>
+            <button class="submit" type="submit">Відправити</button>
           </form>
         </div>
       </div>
