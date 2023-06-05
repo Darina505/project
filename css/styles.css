@@ -313,6 +313,7 @@ ul {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+  fill: var(--black-color);
 }
 
 .form-field .input-name:hover,
