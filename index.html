@@ -526,18 +526,19 @@
               <label for="agree" class="agree-title">
                 Погоджуюся з розсилкою та приймаю
                 <a class="agree-page" href="#">Умови договору</a>
+
+                <input
+                  type="checkbox"
+                  name="agree"
+                  class="input-agree"
+                  id="agree"
+                />
+                <span class="disagree">
+                  <svg width="16px" height="15px">
+                    <use href="./images/sprite.svg#agree"></use>
+                  </svg>
+                </span>
               </label>
-              <input
-                type="checkbox"
-                name="agree"
-                class="input-agree"
-                id="agree"
-              />
-              <span class="disagree">
-                <svg width="16px" height="15px">
-                  <use href="./images/sprite.svg#agree"></use>
-                </svg>
-              </span>
             </div>
             <button class="submit" type="submit">Відправити</button>
           </form>
