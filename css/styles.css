@@ -365,6 +365,10 @@ ul {
   color: var(--primary-black-color);
   margin: 0px 0px 0px 7px;
   padding: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 .modal-form .agree-page {
   color: var(--accent-color);
