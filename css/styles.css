@@ -316,16 +316,21 @@ ul {
   fill: var(--black-color);
 }
 
-.form-field .input-name:hover,
-.form-field .input-name:focus,
-.form-field .input-tel:hover,
-.form-field .input-tel:focus,
-.form-field .input-mail:hover,
-.form-field .input-mail:focus,
+.form-field .input-wrap:hover input,
+.form-field .input-wrap:focus,
 .form-field .comment-text:hover,
 .form-field .comment-text:focus {
   border: 1px solid var(--accent-color);
   background-color: var(--primary-white-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-field .icon-person:hover,
+.form-field .icon-person:focus,
+.form-field .icon-phone:hover,
+.form-field .icon-phone:focus,
+.form-field .icon-mail:hover,
+.form-field .icon-mail:focus {
+  fill: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-field .input-name:hover + .icon-person,
@@ -333,7 +338,7 @@ ul {
 .form-field .input-tel:hover + .icon-phone,
 .form-field .input-tel:focus + .icon-phone,
 .form-field .input-mail:hover + .icon-mail,
-.form-field .input-mail:focus + .icon-tel {
+.form-field .input-mail:focus + .icon-mail {
   fill: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -778,9 +783,8 @@ ul {
 }
 .subscribe > input:not(:placeholder-shown),
 .subscribe > input:focus {
-  background-color: var(--primary-white-background-color);
   font-size: 16px;
-  color: var(--black-color);
+  color:var(--primary-white-color);
 }
 /*Portfolio*/
 .link.portfolio {
